@@ -1,0 +1,33 @@
+.row .transicion {
+  background: #181818;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.row .transicion .card-loop .img-loop {
+  position: relative;
+}
+.row .transicion .card-loop .img-loop .div-play {
+  position: absolute;
+  left: 70%;
+  top: 70%;
+  display: none;
+}
+.row .transicion .card-loop .content-loop a {
+  text-decoration: none;
+  color: white;
+}
+.row .transicion .card-loop .content-loop a .div-content {
+  color: #6a6a6a;
+}
+.row .transicion:hover {
+  background-color: #282828;
+}
+.row .transicion:hover .card-loop .img-loop .div-play {
+  display: flex;
+  justify-content: end;
+}
+.row .transicion:hover .card-loop .img-loop .div-play .btn-play {
+  background-color: #1fdf64;
+}
+.row .transicion:hover .card-loop .img-loop .div-play .btn-play:hover {
+  transform: scale(1.04);
+}/*# sourceMappingURL=modulo-playlists.css.map */
