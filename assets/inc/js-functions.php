@@ -1,6 +1,6 @@
 <?php
 /*assets scripts*/
-function netflix_js()
+function ecommerce_js()
 {
     // nos aseguramos que no estamos en el area de administracion
     if (!is_admin()) {
@@ -17,5 +17,5 @@ function netflix_js()
         wp_enqueue_script('bootstrap-js'); 
     }
 }
-add_action("wp_enqueue_scripts","netflix_js", 1);
+add_action("wp_enqueue_scripts","ecommerce_js", 1);
 //primero encolamos los scripts, despues en las '', ponemos el nombre de la funcion de arriba, por ultimo priorizamos la carga del js

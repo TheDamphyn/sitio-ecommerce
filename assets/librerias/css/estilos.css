@@ -1,187 +1,37 @@
-@charset "UTF-8";
 /*variables spotify*/
 /*variables spotify*/
 * {
   box-sizing: border-box;
 }
 
-.body-spotify {
-  background-color: #121212;
+.body-ecommerce {
+  background-color: #e7e7e7;
   font-family: "Figtree", sans-serif;
 }
 
-#page .div-nav {
-  background-color: #000;
+#page .header-ecommerce {
+  background-color: #fff159;
+  padding: 8px 10px 12px 10px;
 }
-#page .div-nav .nav-spotify .logo-spotify {
-  color: white;
-  text-decoration: none;
+#page .header-ecommerce .nav-logo a {
+  height: 34px;
+  width: 134px;
 }
-#page .div-nav .nav-spotify .div-menu .navbar-nav {
-  list-style: none;
+#page .header-ecommerce .nav-busqueda form {
+  position: relative;
 }
-#page .div-nav .nav-spotify .div-menu .navbar-nav li {
-  margin-top: 5%;
+#page .header-ecommerce .nav-busqueda form .search-field {
+  position: relative;
+  width: 100%;
+  padding: 10px 60px 10px 15px;
 }
-#page .div-nav .nav-spotify .div-menu .navbar-nav li a {
-  display: flex;
-  align-items: center;
-  color: #b3b3b3;
-  text-decoration: none;
+#page .header-ecommerce .nav-busqueda form .wp-element-button {
+  position: absolute;
+  padding: 0;
+  width: auto;
+  padding: 10px 8px 10px 15px;
 }
-#page .div-nav .nav-spotify .div-menu .navbar-nav li a span {
-  color: inherit;
-}
-#page .div-nav .nav-spotify .div-menu .navbar-nav li a:hover {
-  color: white;
-}
-#page .div-nav .nav-spotify .div-menu .div-info a {
-  text-decoration: none;
-  color: #b3b3b3;
-}
-#page .div-nav .nav-spotify .div-menu .div-info a span {
-  color: inherit;
-}
-#page .div-nav .nav-spotify .div-menu .div-info .coockies:hover {
-  text-decoration: underline;
-}
-#page .div-nav .nav-spotify .div-menu .div-idioma .btn-idioma span {
-  color: white;
-}
-#page .div-nav .nav-spotify .div-menu .div-idioma .btn-idioma:hover {
-  transform: scale(1.04);
-}
-#page .div-header {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-#page .div-header .header-spotify .btn-header button {
-  color: white;
-  opacity: 0.6;
-  background-color: rgba(0, 0, 0, 0.7);
-}
-#page .div-header .header-spotify .btn-header-registrate {
-  background-color: transparent;
-}
-#page .div-header .header-spotify .btn-header-registrate .border-trasparente {
-  border-color: transparent;
-}
-#page .div-header .header-spotify .btn-header-registrate .btn-color {
-  color: #6a6a6a;
-}
-#page .div-header .header-spotify .btn-header-registrate:hover {
-  transform: scale(1.04);
-}
-#page .div-header .header-spotify .btn-header-registrate:hover .btn-color {
-  color: white;
-}
-#page .div-header .header-spotify .btn-header-inicio-sesion {
-  background-color: white;
-}
-#page .div-header .header-spotify .btn-header-inicio-sesion .border-trasparente {
-  border-color: transparent;
-}
-#page .div-header .header-spotify .btn-header-inicio-sesion .btn-color {
-  color: black;
-}
-#page .div-header .header-spotify .btn-header-inicio-sesion:hover {
-  transform: scale(1.04);
-}
-#page .div-header .div-main {
-  background-color: #121212;
-}
-#page .div-header .div-main .bg-portada {
-  padding: 3%;
-  background-color: #181818;
-  border-bottom: 1px solid #6a6a6a;
-}
-#page .div-header .div-main .bg-portada .div-info-playlist {
-  color: white;
-}
-#page .div-header .div-main .bg-portada .div-info-playlist a {
-  color: white;
-  text-decoration: none;
-}
-#page .div-header .div-main .bg-portada .div-info-playlist a:hover {
-  text-decoration: underline;
-}
-#page .div-header .div-main .bg-portada .div-info-playlist .span::before {
-  content: "•";
-  margin: 0 4px;
-}
-#page .div-header .div-main .div-opciones {
-  background-color: #181818;
-}
-#page .div-header .div-main .div-opciones .div-play .btn-play {
-  background-color: #1fdf64;
-}
-#page .div-header .div-main .div-opciones .div-play .btn-play:hover {
-  transform: scale(1.04);
-}
-#page .div-header .div-main .div-opciones .div-heart {
-  padding-left: 2%;
-}
-#page .div-header .div-main .div-opciones .div-heart .btn-heart {
-  color: hsla(0, 0%, 100%, 0.7);
-}
-#page .div-header .div-main .div-opciones .div-heart .btn-heart:hover {
-  color: white;
-}
-#page .div-header .div-main .div-opciones .div-dots {
-  padding-left: 1%;
-}
-#page .div-header .div-main .div-opciones .div-dots .btn-dots {
-  color: hsla(0, 0%, 100%, 0.7);
-}
-#page .div-header .div-main .div-opciones .div-dots .btn-dots:hover {
-  color: white;
-}
-#page .div-header .div-footer {
-  background-color: #121212;
-}
-#page .div-header .div-footer footer .row {
-  border-bottom: 1px solid #6a6a6a;
-  padding-bottom: 2%;
-}
-#page .div-header .div-footer footer .row .titulo-menu-footer {
-  color: rgb(255, 255, 255);
-}
-#page .div-header .div-footer footer .row ul {
-  list-style: none;
-  margin: 0%;
-  padding: 0%;
-}
-#page .div-header .div-footer footer .row ul li {
-  margin-top: 5%;
-}
-#page .div-header .div-footer footer .row ul li a {
-  display: flex;
-  align-items: center;
-  color: #b3b3b3;
-  text-decoration: none;
-}
-#page .div-header .div-footer footer .row ul li a span {
-  color: inherit;
-}
-#page .div-header .div-footer footer .row ul li a:hover {
-  color: white;
-  text-decoration: underline;
-}
-#page .div-header .div-footer footer .div-iconos .iconos-footer {
-  color: white;
-  background-color: rgb(41, 41, 41);
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-#page .div-header .div-footer footer .div-iconos .iconos-footer:hover {
-  background-color: rgb(114, 114, 114);
-}
-#page .div-header .creditos {
-  background-color: #121212;
-}
-#page .div-header .creditos p {
-  color: #6a6a6a;
+#page .header-ecommerce .nav-promocion img {
+  max-width: 340px;
+  max-height: 39px;
 }/*# sourceMappingURL=estilos.css.map */

@@ -14,7 +14,7 @@ A starter theme called ecommerce.
 
 == Description ==
 
-sitio para ecommerce
+tema para ecommerce
 
 == Installation ==
 

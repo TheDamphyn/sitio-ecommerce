@@ -1,5 +1,5 @@
 <?php
-function netflix_css(){
+function ecommerce_css(){
 
     //registramos los estilos:
     wp_register_style('bootstrap','https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css','all');
@@ -14,7 +14,7 @@ function netflix_css(){
     wp_enqueue_style('iconos');
 }
 
-add_action('wp_enqueue_scripts','netflix_css');
+add_action('wp_enqueue_scripts','ecommerce_css');
 //primero encolamos los estilos despues en las '', ponemos el nombre de la funcion de arriba
 
 /*assets styles*/

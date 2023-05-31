@@ -3,6 +3,7 @@
         background: #181818;
         box-shadow: 0px 2px 10px rgba(0,0,0,.5);
         .card-loop {
+            z-index: 1;
             .img-loop {
                 position: relative;
                 .div-play {
@@ -29,7 +30,6 @@
             .img-loop {
                 .div-play {
                     display: flex;
-                    justify-content: end;
                     .btn-play {
                         background-color: #1fdf64;
                     }

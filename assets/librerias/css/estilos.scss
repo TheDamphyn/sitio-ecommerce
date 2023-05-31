@@ -3,204 +3,40 @@
 * {
     box-sizing: border-box;
 }
-.body-spotify {
-    background-color: #121212;
+.body-ecommerce {
+    background-color: #e7e7e7;
     font-family: 'Figtree', sans-serif;
 }
 #page {
-    .div-nav {
-        background-color: #000;
-        .nav-spotify {
-            .logo-spotify {
-                color: white;
-                text-decoration: none;
+    .header-ecommerce {
+        background-color: #fff159;
+        padding: 8px 10px 12px 10px;
+        .nav-logo {
+            a {
+                height: 34px;
+                width: 134px;
             }
-            .div-menu {
-                .navbar-nav {
-                list-style: none;
-                    li {
-                        margin-top: 5%;
-                        a {
-                            display: flex;
-                            align-items: center;
-                            color: #b3b3b3;
-                            text-decoration: none;
-                            span {
-                                color: inherit;
-                            }
-                        }
-                        a:hover {
-                            color: white;
-                        }
-                    }
+        }
+        .nav-busqueda {
+            form {
+                position: relative;
+                .search-field {
+                    position: relative;
+                    width: 100%;
+                    padding: 10px 60px 10px 15px;
                 }
-                .div-info {
-                    a {
-                        text-decoration: none;
-                        color: #b3b3b3;
-                        span {
-                            color: inherit;
-                        }
-                    }
-                    .coockies:hover {
-                        text-decoration: underline;
-                    }
-                }
-                .div-idioma {
-                    .btn-idioma {
-                        span {
-                            color: white;
-                        }
-                    }
-                    .btn-idioma:hover {
-                        transform: scale(1.04);
-                    }
+                .wp-element-button {
+                    position: absolute;
+                    padding: 0;
+                    width: auto;
+                    padding: 10px 8px 10px 15px;
                 }
             }
         }
-    }
-    .div-header {
-        background-color: rgba(0,0,0,.5);
-        .header-spotify {
-            .btn-header {
-                button {
-                    color: white;
-                    opacity: .6;
-                    background-color: rgba(0,0,0,.7);
-                }
-            }
-            .btn-header-registrate {
-                background-color: transparent;
-                .border-trasparente {
-                    border-color: transparent;
-                }
-                .btn-color {
-                    color: #6a6a6a;
-                }
-            }
-            .btn-header-registrate:hover {
-                transform: scale(1.04);
-                .btn-color {
-                    color: white;
-                }
-            }
-            .btn-header-inicio-sesion {
-                background-color: white;
-                .border-trasparente {
-                    border-color: transparent;
-                }
-                .btn-color {
-                    color: black;
-                }
-            }
-            .btn-header-inicio-sesion:hover {
-                transform: scale(1.04);
-            }
-        }
-        .div-main {
-            background-color: #121212;
-            .bg-portada {
-                padding: 3%;
-                background-color: #181818;
-                border-bottom: 1px solid #6a6a6a;
-                .div-info-playlist {
-                    color: white;
-                    a {
-                        color: white;
-                        text-decoration: none;
-                    }
-                    a:hover {
-                        text-decoration: underline;
-                    }
-                    .span::before {
-                        content: "•";
-                        margin: 0 4px;
-                    }
-                }
-            }
-            .div-opciones {
-                background-color: #181818;
-                .div-play {
-                    .btn-play {
-                        background-color: #1fdf64;
-                    }
-                    .btn-play:hover {
-                        transform: scale(1.04);
-                    }
-                }
-                .div-heart {
-                    padding-left: 2%;
-                    .btn-heart {
-                        color: hsla(0,0%,100%,.7);
-                    }
-                    .btn-heart:hover {
-                        color: white;
-                    }
-                }
-                .div-dots {
-                    padding-left: 1%;
-                    .btn-dots {
-                        color: hsla(0,0%,100%,.7);
-                    }
-                    .btn-dots:hover {
-                        color: white;
-                    }
-                }
-            }
-            
-        }
-        .div-footer {
-            background-color: #121212;
-            footer {
-                .row {
-                    border-bottom: 1px solid #6a6a6a;
-                    padding-bottom: 2%;
-                    .titulo-menu-footer {
-                        color: rgb(255, 255, 255);
-                    }
-                    ul {
-                        list-style: none;
-                        margin: 0%;
-                        padding: 0%;
-                        li {
-                            margin-top: 5%;
-                            a {
-                                display: flex;
-                                align-items: center;
-                                color: #b3b3b3;
-                                text-decoration: none;
-                                span {
-                                    color: inherit;
-                                }
-                            }
-                            a:hover {
-                                color: white;
-                                text-decoration: underline;
-                            }
-                        }
-                    }
-                }
-                .div-iconos {
-                    .iconos-footer {
-                        color: white;
-                        background-color: rgb(41, 41, 41);
-                        height: 60px;
-                        width: 60px;
-                        border-radius: 50%;
-                        display: inline-flex;
-                        justify-content: center;
-                        align-items: center;
-                    }
-                    .iconos-footer:hover {
-                        background-color: rgb(114, 114, 114);
-                    }
-                }
-            }
-        }
-        .creditos {
-            background-color: #121212;
-                p {
-                color: #6a6a6a;
+        .nav-promocion {
+            img {
+                max-width: 340px;
+                max-height: 39px;
             }
         }
     }

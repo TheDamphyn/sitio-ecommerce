@@ -8,15 +8,15 @@ add_action('after_setup_theme','example_theme_support');
 function zona_widget(){
     //widget 1
     register_sidebar(array(
-        'name'=>'Nav spotify 1',
-        'id'=>'nav_spotify_uno',//le damos ID y nombre al nav
-        'before_widget'=>'<div id="%1$s" class="col-12">',//añadimos clase y contenido
+        'name'=>'Form busqueda 1',
+        'id'=>'form_busqueda_uno',//le damos ID y nombre al nav
+        'before_widget'=>'<div id="%1$s" class="nav-busqueda">',//añadimos clase y contenido
         'after_widget'=>'</div>',//cerramos los contenedores
-        'before_title'=>'<h5 class="titulo-menu-nav">',//añadimos contenedores para titulo
+        'before_title'=>'<h5 class="">',//añadimos contenedores para titulo
         'afet_title'=>'</h5>',//cerramos los contenedores de titulo
     ));
     //widget 1
-    //widget 2
+    /*//widget 2
     register_sidebar(array(
         'name'=>'Nav spotify 2',
         'id'=>'nav_spotify_dos',//le damos ID y nombre al footer
@@ -65,6 +65,6 @@ function zona_widget(){
         'before_title'=>'<h4 class="titulo-menu-footer">',//añadimos contenedores para titulo
         'afet_title'=>'</h4>',//cerramos los contenedores de titulo
     ));
-    //widget 6
+    //widget 6*/
 }
 add_action('widgets_init','zona_widget');
